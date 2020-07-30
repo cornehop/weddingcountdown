@@ -1,0 +1,43 @@
+body {
+    font-family: 'Dancing Script', Arial;
+}
+
+a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #000000;
+}
+
+#page-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#counter {
+    color: #ff99cc;
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.flowerimg {
+    position: absolute;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.topleft {
+    top: 0;
+    left: 0;
+}
+
+.bottomright {
+    bottom: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
