@@ -1,4 +1,4 @@
-var countdowndate = new Date('2020-07-17 14:00:00').getTime();
+var countdowndate = new Date('2021-06-30 14:00:00').getTime();
 
 let isPlaying = false;
 function playAudio() {
@@ -11,7 +11,7 @@ function playAudio() {
   isPlaying = !isPlaying;
 };
 
-var x = setInterval(function() {
+var x = setInterval(function () {
   // Get today's date and time
   var now = new Date().getTime();
 
@@ -26,7 +26,7 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
   document.getElementById("counter").innerHTML = days + "d " + hours + "u "
-  + minutes + "m " + seconds + "s ";
+    + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
